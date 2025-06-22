@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Echonotes – Capture, Organize, Elevate</title>
+  <!-- Style Sheet -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./assets/notes.png" type="image/x-icon">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- <div class="container"> -->
+  <nav class="navbar">
+  <div class="logo" onclick="refresh()">
+    <!-- Pencil Icon -->
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round"
+        d="M16.862 4.487a2.032 2.032 0 0 1 2.65 2.65L10.955 20.55a2.032 2.032 0 0 1-3.199.408L3.05 16.25a2.032 2.032 0 0 1 .408-3.2L16.862 4.487Z" />
+    </svg>
+    <span>Echonotes</span>
+  </div>
+
+  <!-- Hamburger -->
+  <div class="hamburger" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <!-- nav menu (links + buttons) -->
+  <div class="nav-menu" id="navMenu">
+    <div class="navLinks">
+      <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+      <a href="#howItWorks">How it Works</a>
+    </div>
+    <div class="nav-buttons">
+      <a href="signUp.html">Sign in</a>
+      <a href="signUp.html" class="signup-button">Sign up</a>
+    </div>
+  </div>
+</nav>
+
+
+   <section class="hero fade-in">
+    <div class="badge">
+      <!-- Sparkles icon -->
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="white">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 4 2-4 4-2-4-2-2-4-2 4-4 2 4 2z" />
+      </svg>
+      AI-Powered Note Taking
+    </div>
+
+    <h1 class="hero-title">Focus on Thinking,<br>Let AI Handle the Notes.</h1>
+    <p class="hero-subtitle">EchoNotes turns your thoughts into structured brilliance — effortlessly and instantly.  Your ideas deserve more than messy docs.
+      </p>
+
+    <a href="noteHolder.html" class="hero-button">
+      Get Started <span class="arrow">→</span>
+    </a>
+  </section>
+
+  <section class="features-section hidden-section" id="features">
+  <div class="badge">⭐ Features</div>
+  <h2 class="features-title">Powerful AI Features</h2>
+  <p class="features-subtitle">Transform your note-taking with our suite of AI-powered tools designed to save time and enhance your content.</p>
+
+  <div class="features-grid">
+    <div class="feature-card large">
+      <div class="feature-icon"> <img src="./assets/icons8-search.svg" alt=""></div>
+      <div class="feature-title">Full Text Search</div>
+      <div class="feature-desc">Search through all your notes in one place with powerful filtering options.</div>
+    </div>
+
+    <div class="feature-card small">
+      <div class="feature-icon"><img src="./assets/icons8-pencil-100.png" alt=""></div>
+      <div class="feature-title">Custom AI Prompts</div>
+      <div class="feature-desc">Create and save your own AI prompts tailored to your specific needs.</div>
+    </div>
+
+    <div class="feature-card">
+      <div class="feature-icon"><img src="./assets/icons8-share.svg" alt=""></div>
+      <div class="feature-title">Share Your Notes</div>
+      <div class="feature-desc">Collaborate by sharing your notes publicly or privately.</div>
+    </div>
+
+    <div class="feature-card large">
+      <div class="feature-icon">🌍</div>
+      <div class="feature-title">Multilingual</div>
+      <div class="feature-desc">Supports 100+ languages and can translate notes in one click.</div>
+    </div>
+
+    <div class="feature-card small">
+      <div class="feature-icon"><img src="./assets/icons8-pricing-64.png" alt=""></div>
+      <div class="feature-title">AI Credits</div>
+      <div class="feature-desc">Purchase credits to unlock advanced AI tools.</div>
+    </div>
+  </div>
+</section>
+
+
+
+  <section class="how-it-works hidden-section" id="howItWorks">
+  <p class="label">🚀 Simple Process</p>
+  <h2>How It Works</h2>
+  <p class="subtext">Getting started with Notes AI is simple. Create, enhance, and organize your notes in just a few steps.</p>
+  <div class="steps">
+    <div class="step">
+      <div class="circle">1</div>
+      <h4>Create a Note</h4>
+      <p>Start writing your thoughts in our clean, distraction-free editor.</p>
+    </div>
+    <div class="step">
+      <div class="circle">2</div>
+      <h4>Enhance with AI</h4>
+      <p>Use AI to summarize, translate, or improve your notes instantly.</p>
+    </div>
+    <div class="step">
+      <div class="circle">3</div>
+      <h4>Organize & Find</h4>
+      <p>Tag or favorite your notes for easy organization and retrieval.</p>
+    </div>
+  </div>
+</section>
+
+
+<section class="pricing-section hidden-section" id="pricing">
+  <div class="badge">💸 Pricing</div>
+  <h2 class="pricing-title">Choose Your Plan</h2>
+  <p class="pricing-subtitle">Whether you're just starting or scaling, we’ve got a plan for you.</p>
+
+  <div class="pricing-cards">
+    <!-- Free Plan -->
+    <div class="pricing-card">
+      <h3 class="plan-name">Free</h3>
+      <p class="plan-price">$0<span>/mo</span></p>
+      <ul class="plan-features">
+        <li>✔ Basic AI Tools</li>
+        <li>✔ 10 Notes / mo</li>
+        <li>✔ Community Support</li>
+      </ul>
+      <a href="#" class="plan-btn">Get Started</a>
+    </div>
+
+    <!-- Pro Plan (Highlighted) -->
+    <div class="pricing-card recommended">
+      <div class="recommended-badge">Popular</div>
+      <h3 class="plan-name">Pro</h3>
+      <p class="plan-price">$9<span>/mo</span></p>
+      <ul class="plan-features">
+        <li>✔ All Free Features</li>
+        <li>✔ Unlimited Notes</li>
+        <li>✔ Custom AI Prompts</li>
+        <li>✔ Priority Support</li>
+      </ul>
+      <a href="#" class="plan-btn">Upgrade</a>
+    </div>
+
+    <!-- Premium Plan -->
+    <div class="pricing-card">
+      <h3 class="plan-name">Premium</h3>
+      <p class="plan-price">$19<span>/mo</span></p>
+      <ul class="plan-features">
+        <li>✔ All Pro Features</li>
+        <li>✔ Team Collaboration</li>
+        <li>✔ AI Assistant Access</li>
+        <li>✔ Early Feature Access</li>
+      </ul>
+      <a href="#" class="plan-btn">Go Premium</a>
+    </div>
+  </div>
+</section>
+
+
+<section class="cta hidden-section">
+  <p class="cta-label">✨ Start Today</p>
+  <h2 class="cta-heading">
+    Ready to Transform<br>Your Note-Taking?
+  </h2>
+  <p class="cta-subtext">
+    Join thousands of users who've upgraded their notes using AI tools built for productivity.
+  </p>
+  <button class="cta-button" onclick="document.location.href = 'noteHolder.html';">Get Started for Free →</button>
+</section>
+  <!-- </div> -->
+
+
+  <footer class="footer">
+  <div class="footer-content">
+    <h3 class="footer-logo">Echonotes</h3>
+    <p class="footer-tagline">Built to boost your productivity and clarity — one smart note at a time.</p>
+    <div class="footer-links">
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+      <a href="#">Docs</a>
+      <a href="#">Support</a>
+    </div>
+    <p class="footer-copy">© 2025 Echonotes. All rights reserved.</p>
+    <p>Build By <span style="color: bisque;">Bilal</span></p>
+  </div>
+</footer>
+
+<a href="https://github.com/bilalmalik04" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="floating-btn-git">Star on Github</a>
+
+<script src="script.js"></script>
+</body>
+</html>

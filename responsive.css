@@ -1,0 +1,86 @@
+
+@media screen and (max-width:1200px) {
+  .navbar{
+    padding: 16px 3rem;
+  }
+}
+
+/* mobile */
+@media screen and (max-width:480px) {
+  .navbar{
+  padding:16px 1.2rem;
+  }
+  .hero-title{
+    font-size: 40px;
+  }
+  .hero{
+    margin-block:2rem ;
+  }
+  .steps {
+  display: flex;
+  justify-content: center;
+  gap: 20px;}
+   .pricing-card {
+    width: 80%;
+  }
+  .cta{
+    max-width: 400px;
+    padding: 50px 10px;
+    margin: 80px auto;
+  }
+  .cta-heading{
+    font-size: 25px;
+  }
+  .cta-button{
+    padding: 14px 28px;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .hero-title{
+    font-size: 30px;
+  }
+  .hero-subtitle{
+    font-size: 14px;
+  }
+  .how-it-works h2{
+    font-size: 34px;
+  }
+  .features-title{
+    font-size: 30px;
+  }
+  .features-subtitle{
+    font-size: 14px;
+  }
+   .pricing-card {
+    width: 90%;
+  }
+   .cta{
+    max-width: 370px;
+    padding: 40px 10px;
+    margin: 80px auto;
+  }
+    .cta-heading{
+    font-size: 23px;
+  }
+  .cta-subtext{
+    font-size:14px ;
+  }
+  .cta-button{
+    padding: 14px 28px;
+  }
+  .floating-btn {
+  position: fixed;
+  right: 15px;
+  bottom: 20px;
+  font-size: 10px;
+  padding: 7px 18px;
+}
+  .floating-btn-git {
+  position: fixed;
+  right: 15px;
+  bottom: 20px;
+  font-size: 10px;
+  padding: 7px 18px;
+}
+}
