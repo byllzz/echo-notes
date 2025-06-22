@@ -1,18 +1,18 @@
-# 📒 Echonotes
+#  Echonotes
 
 > ✨ A sleek, modern landing page for a note-taking app designed to capture thoughts, ideas, and inspiration with clarity and speed.
 
 ---
 
-## 🧩 Overview
+##  Overview
 
 **Echonotes** is a beautifully crafted landing page built to promote a modern note-taking application. With clean visuals, responsive design, and smooth animations, it delivers a premium experience that highlights your product’s core value.
 
 ---
 
-## 📷 Screenshots
+## Screenshots
 
-### 🖥️ Dashboard View
+###  Dashboard View
 <img src="https://github.com/bilalmalik04/echo-notes/blob/main/dashboard.png?raw=true" width="700" alt="Dashboard View" />
 
 ### ✏️ Edit Note View
@@ -31,7 +31,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Frontend:** HTML5, CSS3, JavaScript  
 - **Styling:** Vanilla CSS  
@@ -47,12 +47,7 @@
 
 ---
 
-## 📄 License
 
-This project is licensed under the MIT License.
+##  Author
 
----
-
-## 👨‍💻 Author
-
-Built with 💡 by [**Bilal Malik**](https://github.com/bilalmalik04)
+Built  by [**Bilal Malik**](https://github.com/bilalmalik04)
