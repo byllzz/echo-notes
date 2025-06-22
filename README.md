@@ -10,6 +10,13 @@
 
 ---
 
+## 📷 Screenshots
+
+| Dashboard View |
+
+| ![Dashboard](https://github.com/bilalmalik04/echo-notes/main/Dashboard.png?raw=true)
+
+
 ##  Features
 
 -  Clean and minimal one-page layout
@@ -20,12 +27,6 @@
 -  Styled with  custom CSS 
 
 ---
-
-## 📷 Screenshots
-
-| Dashboard View | Edit Note View |
-|----------------|----------------|
-| ![Dashboard](https://github.com/bilalmalik04/echonotes/main/dashboard.png?raw=true)
 
 
 ##  Tech Stack
@@ -39,9 +40,13 @@
 ---
 
 
+| Edit Note View |
+
+ ![Edit Note](https://github.com/bilalmalik04/echo-notes/main/Edit Notes.png?raw=true) |
+
 ## 🌐 Live Preview
 
-🔗 [**View Echonotes Landing Page →**](http://echonote-notesholder.netlify.app)
+🔗 [**View Echonotes Landing Page →**](http://project-echonotes-notesholder-03.netlify.app)
 
 ---
 
