@@ -1,10 +1,10 @@
-#  Echonotes
+# 📒 Echonotes
 
 > ✨ A sleek, modern landing page for a note-taking app designed to capture thoughts, ideas, and inspiration with clarity and speed.
 
 ---
 
-##  Overview
+## 🧩 Overview
 
 **Echonotes** is a beautifully crafted landing page built to promote a modern note-taking application. With clean visuals, responsive design, and smooth animations, it delivers a premium experience that highlights your product’s core value.
 
@@ -12,41 +12,47 @@
 
 ## 📷 Screenshots
 
-| Dashboard View |
+### 🖥️ Dashboard View
+<img src="https://github.com/bilalmalik04/echo-notes/blob/main/dashboard.png?raw=true" width="700" alt="Dashboard View" />
 
-| ![Dashboard](https://github.com/bilalmalik04/echo-notes/main/dashboard.png?raw=true)
+### ✏️ Edit Note View
+<img src="https://github.com/bilalmalik04/echo-notes/blob/main/edit.png?raw=true" width="700" alt="Edit Note View" />
 
+---
 
 ##  Features
 
--  Clean and minimal one-page layout
--  Fully responsive across devices
--  Animated hero section with modern typography
--  Smooth scroll and sticky navigation
--  Call-to-action areas ready for signup/integration
--  Styled with  custom CSS 
+-  Clean and minimal one-page layout  
+-  Fully responsive across devices  
+-  Animated hero section with modern typography  
+-  Smooth scroll and sticky navigation  
+-  Call-to-action areas ready for signup/integration  
+-  Styled with custom CSS  
 
 ---
 
+## 🛠️ Tech Stack
 
-##  Tech Stack
-
-- **Frontend:** HTML5, CSS3, JavaScript 
-- **Styling:**  Vanilla CSS
-- **Animations:** CSS  Animations
-- **Local Storage:** Save Option Into Local Storage
-- **Deployment:** Netlify / 
+- **Frontend:** HTML5, CSS3, JavaScript  
+- **Styling:** Vanilla CSS  
+- **Animations:** CSS Animations  
+- **Storage:** Local Storage for saving notes  
+- **Deployment:** Netlify  
 
 ---
-
-
-| Edit Note View |
-
- | ![Notes](https://github.com/bilalmalik04/echo-notes/main/edit.png?raw=true)
 
 ## 🌐 Live Preview
 
-🔗 [**View Echonotes Landing Page →**](http://project-echonotes-notesholder-03.netlify.app)
+🔗 [**View Echonotes Landing Page →**](https://project-echonotes-notesholder-03.netlify.app)
 
 ---
 
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+Built with 💡 by [**Bilal Malik**](https://github.com/bilalmalik04)
