@@ -14,7 +14,7 @@
 
 | Dashboard View |
 
-| ![Dashboard](https://github.com/bilalmalik04/echo-notes/main/Dashboard.png?raw=true)
+| ![Dashboard](https://github.com/bilalmalik04/echo-notes/main/dashboard.png?raw=true)
 
 
 ##  Features
@@ -42,7 +42,7 @@
 
 | Edit Note View |
 
- ![Edit Note](https://github.com/bilalmalik04/echo-notes/main/Edit Notes.png?raw=true) |
+ | ![Notes](https://github.com/bilalmalik04/echo-notes/main/edit.png?raw=true)
 
 ## 🌐 Live Preview
 
