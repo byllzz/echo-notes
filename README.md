@@ -50,4 +50,4 @@
 
 ##  Author
 
-Built  by [**Bilal Malik**](https://github.com/bilalmalik04)
+Built  by [**Bilal Malik**](https://github.com/byllzz)
